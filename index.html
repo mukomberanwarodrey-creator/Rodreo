@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      A's homepage
+    </title>
+  </head>
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+}
+
+div {
+  width: 100% !important;
+  max-width: 400px !important;
+  margin: 20px auto !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  word-wrap: break-word !important;
+}
+
+h1, h2, p {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+button {
+  max-width: 90%;
+    }
+    body{
+      background-color:none;
+      backdrop-filter:blur(10px);
+      background-image:url(a.png)
+    }
+    .banner{
+      backdrop-filter:blur;
+      background:linear-gradient(violet,pink);
+      height:550px;
+      border-radius:20px;
+    }
+   .banner h1{
+     padding-top:150px;
+      font-size:40px;
+     text-align:center;
+    animation:colorchange 10s infinite;
+   }
+    @keyframes colorchange{
+      0%{
+        color:red;
+      }
+      25%{
+        color:hotpink;
+      }
+      50%{
+       color: skyblue;
+      }
+      100%{
+        color:blue;
+      }
+    }
+    p{
+      font-family:Arial,sans-serif;
+      font-size:30px;
+      color:purple;
+      text-align:center;
+    }
+    .card button{
+      text-align:center;
+      backdrop-filter:blur(70px);
+      text-align:center;
+      color:pink;
+      background-color:red;
+      border-radius:40px; 
+      padding-right:100px;
+      margin:50px;
+    }
+    .card a{
+      padding-left:10px;
+      color:pink;
+      text-align:center;
+    }
+    footer{
+      background-color:hotpick;
+      padding:15px;
+      margin-top:30px;
+      text-align:center;
+      color:blue;
+    }
+    .logo{
+      border-radius:20px;
+      font-size:25px;
+      font-weight:bold;
+      color:hotpink;
+    }
+    
+    </style>
+  <body>
+    <div class="logo">MAR's C & C™</div>
+    <div class="banner">
+      <h1>WELCOME</h1>
+    
+      <p>To MARs Clothing and<br>
+        <marquee>Cosmetics</marquee>
+        
+       <div class="card"><a href="F&A's.html"><button><h2>Get started</h2></button></a>
+      </div>
+    </div>
+    <footer>
+      ©MARs|RODM 2026
+    </footer>
+  </body>
+</html>
